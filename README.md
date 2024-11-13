@@ -9,6 +9,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 ## 💻 Projeto
+
 O BioLink é um agregador de links para usar como cartão de visitas online.
-
-
