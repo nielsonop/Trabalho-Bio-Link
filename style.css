@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/Design\ sem\ nome\ \(6\).png) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#container {
+  width: 360px;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+p {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+p2 {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 42px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: (4px);
+
+  text-decoration: none;
+  font-weight: 600;
+
+  transition: background 0.3s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+}
+
+footer {
+  padding: 100px 0px;
+  text-align: center;
+  font-size: 14px;
+}
